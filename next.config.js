@@ -1,7 +1,7 @@
 const nextConfig = {
     target:"serverless",
     webpack: function(config){
-        config.moudle.rules.push({
+        config.module.rules.push({
             test:/\.md$/,
             use:"raw-loader",
         });
