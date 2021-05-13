@@ -1,5 +1,6 @@
 import { postSlugs, postForSlug } from "../../posts";
 import Layout from "../../components/Layout";
+import ReactMarkdown from "react-markdown";
 
 function Post({ frontmatter, body }) {
   if (!frontmatter) return <></>;
@@ -10,7 +11,7 @@ function Post({ frontmatter, body }) {
         <article className="max-w-none">
           <h1>{frontmatter.title}</h1>
           <p className="italic">{frontmatter.date}</p>
-          {body}
+          <ReactMarkdown source={body} />
         </article>
       </div>
     </Layout>
