@@ -12,7 +12,7 @@ function Post({ frontmatter, body }) {
         <article className="prose max-w-none">
           <h1>{frontmatter.title}</h1>
           <p className="italic">{frontmatter.date}</p>
-          <ReactMarkdown source={body} renderers={{code:CodeBlock}} />
+          <ReactMarkdown children={body} components={{code:CodeBlock}} />
         </article>
       </div>
     </Layout>
