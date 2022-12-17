@@ -1,0 +1,23 @@
+The ESP01s is a small, low-cost WiFi module that is often used in IoT (Internet of Things) projects. It is based on the ESP8266 chip, which provides WiFi connectivity and can be easily programmed using the Arduino platform.
+
+Flashing custom code to an ESP01s module using an Arduino Uno is a simple process that allows you to unlock the full potential of the ESP8266 chip and build your own IoT projects. In this blog post, we will go over the steps to flash custom code to an ESP01s module using an Arduino Uno.
+
+First, you will need to gather the following materials:
+
+ESP01s module
+Arduino Uno
+USB cable for the Arduino
+ESP8266 board package for the Arduino IDE
+Once you have all of these materials, follow these steps to flash custom code to your ESP01s module:
+
+Install the ESP8266 board package in the Arduino IDE by going to File > Preferences and adding the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the Additional Boards Manager URLs field. Then go to Tools > Board > Boards Manager and search for "ESP8266." Install the ESP8266 by ESP8266 Community package.
+Connect the ESP01s module to the Arduino Uno using the following pin connections:
+ESP01s RX to Arduino Uno pin 0
+ESP01s TX to Arduino Uno pin 1
+ESP01s GND to Arduino Uno GND
+ESP01s VCC to Arduino Uno 3.3V
+Open the Arduino IDE and select Tools > Board and choose the NodeMCU 1.0 (ESP-12E Module) board from the list.
+Go to Tools > Port and select the port that your Arduino is connected to.
+Open the Blink example sketch by going to File > Examples > ESP8266 > Blink and upload it to the ESP01s module by clicking the Upload button.
+Once the sketch has been uploaded, the ESP01s module will start blinking the onboard LED, indicating that the custom code has been successfully flashed to the module.
+With the ESP01s module now flashed with custom code, you can start building your own IoT projects and take advantage of the powerful features of the ESP8266 chip. Whether you want to build a smart home device, a remote temperature sensor, or something completely different, the ESP01s module is a versatile and cost-effective solution.
