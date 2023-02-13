@@ -3,7 +3,7 @@ import RSS from 'rss';
 import {posts} from '../posts/posts'
 
 export default async function generateRssFeed() {
- const site_url = 'localhost:3000';
+ const site_url = 'https://blog.haydensykes.com';
  const allPosts = await posts();
  
  const feedOptions = {
