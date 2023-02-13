@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Hayden Sykes Blog | RSS Feed]]></title>
+        <description><![CDATA[RSS for Hayden Sykes' Blog]]></description>
+        <link>localhost:3000</link>
+        <image>
+            <url>localhost:3000/logo.png</url>
+            <title>Hayden Sykes Blog | RSS Feed</title>
+            <link>localhost:3000</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 13 Feb 2023 02:18:31 GMT</lastBuildDate>
+        <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 13 Feb 2023 02:18:31 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023, Hayden Sykes]]></copyright>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>localhost:3000/blog/program-esp01s-with-arduino</link>
+            <guid isPermaLink="true">localhost:3000/blog/program-esp01s-with-arduino</guid>
+        </item>
+    </channel>
+</rss>

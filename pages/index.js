@@ -1,7 +1,7 @@
 import { posts } from "../posts/posts"
-
 import Layout from "../components/Layout";
 import Link from "next/link"
+import generateRssFeed from '../utils/generateRSSFeed';
 
 const Index = ({posts}) => {
   return (
@@ -41,7 +41,8 @@ const PostsList = ({posts}) => {
 };
 
 export async function getStaticProps(){
-  const postsData = posts();
+  const postsData = await posts();
+  await generateRssFeed();
 
   return{
     props:{
