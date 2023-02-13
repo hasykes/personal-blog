@@ -6,7 +6,7 @@ import generateRssFeed from '../utils/generateRSSFeed';
 const Index = ({posts}) => {
   return (
     <Layout pageTitle="Things you may (or may not) be interested in...">    
-      <h1 className="text-2xl font-semibold">Blog Posts</h1>
+      <h1 className="text-2xl font-semibold">Posts</h1>
       <PostsList posts={posts} />
     </Layout>
   );

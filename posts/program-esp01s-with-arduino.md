@@ -1,7 +1,7 @@
 ---
 title: "How to Program an ESP-01s With Arduino Uno"
 description: "The ESP01s is a handy little microcontroller, but uploading/flashing custom programs can be difficult.  This post covers how I approach this issue with the help of an Arduino Uno."
-date: 13 December 2022
+date: 12 February 2023
 ---
 
  With built in WiFi, low cost, and a X GPIO pins available the ESP01s is fantastic for custom home projects.  While a handy little microcontroller, uploading/flashing custom programs to the ESP01s can be difficult for a beginner.  After reading this post, you should understand the concepts of...

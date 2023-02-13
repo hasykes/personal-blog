@@ -9,9 +9,9 @@
             <link>localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Feb 2023 02:18:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Feb 2023 02:44:39 GMT</lastBuildDate>
         <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Feb 2023 02:18:31 GMT</pubDate>
+        <pubDate>Mon, 13 Feb 2023 02:44:39 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, Hayden Sykes]]></copyright>
         <item>
             <title><![CDATA[No title]]></title>

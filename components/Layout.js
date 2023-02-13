@@ -22,7 +22,7 @@ function Layout ({children, pageTitle}){
             <main className="w-11/12 md:w-full max-w-2xl mx-auto my-8 flex-grow">
             {children}
             </main>
-            <footer className="flex flex-col items-center w-full h-24 border-t border-black-500">
+            <footer className="flex flex-col items-center w-full h-12 border-t border-black-500">
             <div className="w-11/12 md:w-full max-w-3xl m-auto flex flex-row items-center justify-center">
                 All content © {currentYear()} Hayden Sykes 
             </div>

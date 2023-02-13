@@ -5,8 +5,7 @@ import {posts} from '../posts/posts'
 export default async function generateRssFeed() {
  const site_url = 'localhost:3000';
  const allPosts = await posts();
- console.log(allPosts)
-
+ 
  const feedOptions = {
   title: 'Hayden Sykes Blog | RSS Feed',
   description: 'RSS for Hayden Sykes\' Blog',
