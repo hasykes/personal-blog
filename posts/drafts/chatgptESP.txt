@@ -10,7 +10,7 @@ USB cable for the Arduino
 ESP8266 board package for the Arduino IDE
 Once you have all of these materials, follow these steps to flash custom code to your ESP01s module:
 
-Install the ESP8266 board package in the Arduino IDE by going to File > Preferences and adding the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the Additional Boards Manager URLs field. Then go to Tools > Board > Boards Manager and search for "ESP8266." Install the ESP8266 by ESP8266 Community package.
+
 Connect the ESP01s module to the Arduino Uno using the following pin connections:
 ESP01s RX to Arduino Uno pin 0
 ESP01s TX to Arduino Uno pin 1
@@ -20,4 +20,4 @@ Open the Arduino IDE and select Tools > Board and choose the NodeMCU 1.0 (ESP-12
 Go to Tools > Port and select the port that your Arduino is connected to.
 Open the Blink example sketch by going to File > Examples > ESP8266 > Blink and upload it to the ESP01s module by clicking the Upload button.
 Once the sketch has been uploaded, the ESP01s module will start blinking the onboard LED, indicating that the custom code has been successfully flashed to the module.
-With the ESP01s module now flashed with custom code, you can start building your own IoT projects and take advantage of the powerful features of the ESP8266 chip. Whether you want to build a smart home device, a remote temperature sensor, or something completely different, the ESP01s module is a versatile and cost-effective solution.
+With the ESP01s module now flashed Install the ESP8266 board package in the Arduino IDE by going to File > Preferences and adding the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the Additional Boards Manager URLs field. Then go to Tools > Board > Boards Manager and search for "ESP8266." Install the ESP8266 by ESP8266 Community package.with custom code, you can start building your own IoT projects and take advantage of the powerful features of the ESP8266 chip. Whether you want to build a smart home device, a remote temperature sensor, or something completely different, the ESP01s module is a versatile and cost-effective solution.
