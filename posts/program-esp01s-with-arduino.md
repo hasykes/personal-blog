@@ -21,11 +21,9 @@ date: 31 July 2023
  **Note: These are affiliate links.  I receive a small sum if you purchase via these links (at no cost to you!)**
 
  # About the ESP01s
-![Photo of ESP01s]()
-<em>
-  ESP01s - 
-  Courtesy of Me
-</em>
+![Photo of ESP01s](https://i.ebayimg.com/images/g/0GUAAOSwR8hiUDWZ/s-l1600.jpg)
+
+*ESP01s - Courtesy of ASA College*
 
 The ESP01s is a compact and versatile Wi-Fi module, widely used in the Internet of Things (IoT) and smart home projects. It is based on the ESP8266 chip, which integrates a powerful 32-bit microcontroller and a Wi-Fi transceiver. The ESP01s module is known for its low cost, small form factor, and ease of use, making it an ideal choice for hobbyists, makers, and developers looking to add Wi-Fi connectivity to their projects.
  
@@ -35,7 +33,7 @@ Despite its size, the ESP01s packs enough processing power to handle various IoT
  
  Download the Arduino IDE for your specific OS directly from the arduino.cc website: https://www.arduino.cc/en/software
 
- Arduino uses a custom language, similar to C++.  If you don't know C++, don't worry because I don't either!  There is a ton of boilerplate code on the web to help you get started and handle most of your use cases with the ESP01s.  For everything else, I'm always happy to try and help, just leave me a comment (If there's no comment function yet... [Email Me!](mailto:hayden@haydensykes.com)
+ Arduino uses a custom language, similar to C++.  If you don't know C++, don't worry because I don't either!  There is a ton of boilerplate code on the web to help you get started and handle most of your use cases with the ESP01s.  For everything else, I'm always happy to try and help, just leave me a comment (If there's no comment function yet... [Email Me!](mailto:hayden@haydensykes.com))
 
 After installing the Arduino IDE, you'll need to update a few settings and download an ESP8266 library for interacting with your ESP01s. 
 
@@ -55,11 +53,8 @@ With your settings updated, let's get your ESP01s and Arduino connected.
 In order for your ESP01s to allow custom programming, we will need to physically connect pins to the Arduino. To transmit data, there are several pins we need to connect between the ESP and Arduino.
 
 ![ESP01s Pinout Diagram](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP-01-ESP8266-pinout-gpio-pin.png?quality=100&strip=all&ssl=1) 
-<em>
-   ESP01s Pinout Diagram - 
-   Courtesy of <a href="https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/">RandomNerdTutorials
-   </a>
-</em>
+
+*ESP01s Pinout Diagram - Courtesy of [RandomNerdTutorials](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)*
   
 ![Arduino Uno Pinout Diagram](https://docs.arduino.cc/static/2b141eb1cfe6f465a949c203e4af1b5f/A000066-pinout.png)
 <em>
@@ -79,7 +74,7 @@ In order for your ESP01s to allow custom programming, we will need to physically
 
 Once connected, plug in the USB cable to your Arduino Uno and Laptop.  Ensure your Arduino UNO is communicated by selecting the correct port in the Menu Tools > Port. Note that the port used may vary and require some trial and error. It's finally time to add some code! 
 
-!(ESP01s connected to Arduino UNO and Laptop)[https://hayden-blog.s3.us-east-2.amazonaws.com/ArduinoUno_To_ESP01s/Arduino+to+ESP01s+-+Final.jpeg]
+![ESP01s connected to Arduino UNO and Laptop](https://hayden-blog.s3.us-east-2.amazonaws.com/ArduinoUno_To_ESP01s/Arduino+to+ESP01s+-+Final.jpeg)
 <em>
    ESP01s connected to Arduino UNO and Laptop - Courtesy of Me
    </a>
@@ -132,4 +127,4 @@ After succesfully uploading the code, disconnect the **ESP01s GPIO0 from GND** a
 
 Congrats, you have succesfully uploaded custom code to an ESP01s module!  Now you can start building your own IoT projects and take advantage of the powerful features of the ESP8266 chip. Whether you want to build a smart home device, a remote temperature sensor, or something completely different, the ESP01s module is a versatile and cost-effective solution.  
 
-Follow my RSS feed for more ESP01s project ideas and other random DIY/Tech tips!
+[Follow my RSS feed]() for more ESP01s project ideas and other random DIY/Tech tips!
