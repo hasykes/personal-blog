@@ -31,7 +31,7 @@ Despite its size, the ESP01s packs enough processing power to handle various IoT
 
  # Developing Custom Programs in the Arduino IDE
  
- Download the Arduino IDE for your specific OS directly from the arduino.cc website: https://www.arduino.cc/en/software
+ Download the Arduino IDE for your specific OS directly from the arduino.cc website: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
  Arduino uses a custom language, similar to C++.  If you don't know C++, don't worry because I don't either!  There is a ton of boilerplate code on the web to help you get started and handle most of your use cases with the ESP01s.  For everything else, I'm always happy to try and help, just leave me a comment (If there's no comment function yet... [Email Me!](mailto:hayden@haydensykes.com))
 
@@ -57,11 +57,8 @@ In order for your ESP01s to allow custom programming, we will need to physically
 *ESP01s Pinout Diagram - Courtesy of [RandomNerdTutorials](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)*
   
 ![Arduino Uno Pinout Diagram](https://docs.arduino.cc/static/2b141eb1cfe6f465a949c203e4af1b5f/A000066-pinout.png)
-<em>
-  Arduino Uno Pinout Diagram - 
-  Courtesy of <a href="https://docs.arduino.cc/hardware/uno-rev3">Arduino Documention
-  </a>
-</em>
+*Arduino Uno Pinout Diagram - 
+  Courtesy of [Arduino Documention](https://docs.arduino.cc/hardware/uno-rev3")*
 
 1. ESP01s RX to Arduino Uno RX
 2. ESP01s TX to Arduino Uno TX
@@ -75,10 +72,7 @@ In order for your ESP01s to allow custom programming, we will need to physically
 Once connected, plug in the USB cable to your Arduino Uno and Laptop.  Ensure your Arduino UNO is communicated by selecting the correct port in the Menu Tools > Port. Note that the port used may vary and require some trial and error. It's finally time to add some code! 
 
 ![ESP01s connected to Arduino UNO and Laptop](https://hayden-blog.s3.us-east-2.amazonaws.com/ArduinoUno_To_ESP01s/Arduino+to+ESP01s+-+Final.jpeg)
-<em>
-   ESP01s connected to Arduino UNO and Laptop - Courtesy of Me
-   </a>
-</em>
+*ESP01s connected to Arduino UNO and Laptop - Courtesy of Me*
 
 # Loading Custom Code
 
@@ -119,9 +113,7 @@ The next few steps need to be completed in sequence.  You may have an upload fai
 3. The upload should begin and may take a minute.
 
 ![Blinking ESP01s](https://hayden-blog.s3.us-east-2.amazonaws.com/ArduinoUno_To_ESP01s/ESP01s-LED.jpeg) 
-<em align="center">
-ESP01s LED lit up after succesful code upload - Courtesy of Me
-</em>
+*ESP01s LED lit up after succesful code upload - Courtesy of Me*
 
 After succesfully uploading the code, disconnect the **ESP01s GPIO0 from GND** and quickly connect and **disconnect ESP01s RST to GND** (this resets the ESP01s back into operating mode).
 

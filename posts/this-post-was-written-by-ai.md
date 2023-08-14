@@ -4,7 +4,6 @@ description: "Explore the world of AI through this post authored by ChatGPT-4. D
 date: 13 Aug 2023
 ---
 
-# This Post was Written by ChatGPT-4 (AI)
 ## Foreward From a Human: 
 Open AI's ChatGPT 3 model was originally released to the public in November 30, 2022 and has made changes for better (and worse) in under a year.  This post serves as an example of what a simple prompt to this technology can provide, but also where it falls short on the human elements.  Photo locations and descriptions were recommended by ChatGPT, while the actual photos were sourced via a quick pexels.com search.
 

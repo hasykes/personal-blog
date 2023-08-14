@@ -2,21 +2,26 @@
     <channel>
         <title><![CDATA[Hayden Sykes Blog | RSS Feed]]></title>
         <description><![CDATA[RSS for Hayden Sykes' Blog]]></description>
-        <link>localhost:3000</link>
+        <link>https://blog.haydensykes.com</link>
         <image>
-            <url>localhost:3000/logo.png</url>
+            <url>https://blog.haydensykes.com/logo.png</url>
             <title>Hayden Sykes Blog | RSS Feed</title>
-            <link>localhost:3000</link>
+            <link>https://blog.haydensykes.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Feb 2023 02:44:39 GMT</lastBuildDate>
-        <atom:link href="localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 13 Feb 2023 02:44:39 GMT</pubDate>
+        <lastBuildDate>Mon, 14 Aug 2023 00:48:01 GMT</lastBuildDate>
+        <atom:link href="https://blog.haydensykes.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 14 Aug 2023 00:48:01 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, Hayden Sykes]]></copyright>
         <item>
             <title><![CDATA[No title]]></title>
-            <link>localhost:3000/blog/program-esp01s-with-arduino</link>
-            <guid isPermaLink="true">localhost:3000/blog/program-esp01s-with-arduino</guid>
+            <link>https://blog.haydensykes.com/blog/this-post-was-written-by-ai</link>
+            <guid isPermaLink="true">https://blog.haydensykes.com/blog/this-post-was-written-by-ai</guid>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://blog.haydensykes.com/blog/program-esp01s-with-arduino</link>
+            <guid isPermaLink="true">https://blog.haydensykes.com/blog/program-esp01s-with-arduino</guid>
         </item>
     </channel>
 </rss>
